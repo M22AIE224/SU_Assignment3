@@ -433,7 +433,7 @@ class Residual_block(nn.Module):
         return out
 
 
-class Model(nn.Module):
+class ModelNM(nn.Module):
     def __init__(self,device):
         super().__init__()
         self.device = device
